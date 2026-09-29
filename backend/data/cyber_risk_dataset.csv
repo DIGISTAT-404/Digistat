@@ -1,0 +1,16 @@
+asset_id,asset_name,type,owner,environment,criticality,exposure,vulnerability_count,critical_vulns,patch_age_days,edr,mfa,risk_score,eal_inr,status
+A-001,Customer API,API,Digital,Production,5,Internet,18,4,46,No,No,92,18500000,Critical
+A-002,Payment Gateway,Application,Finance,Production,5,Internet,11,2,19,Yes,Yes,74,12100000,High
+A-003,Employee VPN,Network,IT,Production,4,Internet,9,1,31,Yes,No,71,6800000,High
+A-004,CRM Database,Database,Sales,Production,5,Internal,7,1,14,Yes,Yes,58,5400000,Medium
+A-005,Cloud Storage,Storage,Data,Production,5,Internet,13,3,62,No,No,88,14900000,Critical
+A-006,HR Portal,Application,HR,Production,3,Internet,5,1,28,Yes,Yes,49,2100000,Medium
+A-007,Analytics Cluster,Compute,Data,Cloud,3,Internal,8,0,17,Yes,Yes,36,1600000,Low
+A-008,Identity Server,IAM,IT,Production,5,Internal,10,2,24,Yes,No,67,7300000,High
+A-009,Email Gateway,Network,IT,Production,4,Internet,6,1,12,Yes,Yes,44,2900000,Medium
+A-010,Dev Repository,Code,Engineering,Cloud,4,Internal,15,2,39,No,Yes,63,4700000,High
+A-011,Branch Router,Network,Operations,Production,2,Internet,4,0,9,Yes,Yes,29,900000,Low
+A-012,Data Lake,Storage,Data,Cloud,5,Internal,12,1,21,Yes,Yes,55,6200000,Medium
+A-013,Admin Console,IAM,Security,Production,5,Internet,8,2,27,Yes,No,79,9800000,High
+A-014,Legacy ERP,Application,Finance,Production,4,Internal,21,3,91,No,No,84,8700000,Critical
+A-015,Monitoring Node,Compute,Security,Cloud,2,Internal,3,0,6,Yes,Yes,22,600000,Low
